@@ -1,0 +1,424 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container {background-color: #1e1e1e;
+    
+   
+           }
+  
+
+.main-box {
+   width: 100%; 
+   max-width: 1400px;
+   margin: auto;
+   padding: 15px;
+   box-sizing: border-box;
+   flex-wrap: wrap;
+         }
+         
+
+
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("Fonts/Avenir.ttf") format("truetype");
+    }
+
+
+       @font-face {
+           font-family: "CustomFont2";
+           src: url("Fonts/FreeSansBold.ttf") format("truetype");
+           }
+
+           @font-face {
+               font-family: "CustomFont3";
+               src: url("Fonts/Kadwa-Regular.ttf") format("truetype");
+               }
+
+
+
+
+
+
+  a {
+    text-decoration: none; 
+    color:rgb(201, 201, 201); 
+    font-family: "CustomFont3", sans-serif;
+}
+
+
+
+.box2,
+.box3,
+.box4,
+.footerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topbox {
+ 
+ height: 600px;
+ display: flex;
+ flex-direction: column;
+ margin-top: 0px;
+ position: relative;
+ background-position: center;
+ background-image: url(pics/topboxpic.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+  }
+
+
+nav {
+ display: flex;
+ justify-content: flex-end;      
+}
+
+nav a { font-family: "CustomFont", sans-serif;
+    color: rgb(192, 192, 192);
+    margin-top: 25px;
+    margin-right: 80px; 
+    margin-left:-30px;
+    text-decoration: none;
+
+}
+
+nav a:hover {color: rgb(212, 112, 117);}
+
+
+
+
+  
+  .order-button:hover {
+    background-color: #3f0404; 
+  }
+  
+
+
+.box2 {
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+    
+    margin-top: -15px; 
+    flex-wrap: wrap;
+    background-image: url(Images/);
+    background-size: cover;
+    display: flex;
+
+    }
+    
+
+    .Who-we-are {
+        color: #ba1717;
+        font-family: "CustomFont3", sans-serif; 
+        font-size: 40px; /* Set your desired font size */
+        margin-left: -280px;
+    }
+    
+
+    .Eat-in-the-fastlane {
+        color: #f5f5f5;
+        font-family: "CustomFont2", sans-serif; 
+        font-size: 30px; 
+        margin-left: -230px;
+        position: relative;
+        top: -20px;
+    }
+
+    .who-we-are-text {
+        color: #f5f5f5;
+        font-family: "CustomFont1", sans-serif; 
+        font-size: 16px; 
+        left: 10px;
+        position: relative;
+        top: -20px;}
+
+
+    .box2pic1 {
+        width: 550px;
+        height: 320px;
+        background-color: gray;
+        left: -10px;
+        top: 10px;
+        position: relative;
+        background-image: url(images/);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+      }
+
+      .slideshow-container {
+        margin-top: 300px;
+        max-width: 700px;
+        position: static;
+        margin: auto;
+    }
+    
+    .mySlides img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .prev,
+    .next {
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .prev {
+        left: 0;
+    }
+    
+    .next {
+        right: 0;
+    }
+
+     
+
+
+.box3 {
+    background-color: #000000;
+    flex-wrap: wrap;
+    height: 600px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+  .box-row {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .ourmenu {
+        color: #ba1717;
+        font-family: "CustomFont3", sans-serif; 
+        font-size: 60px; 
+        margin-left: -10px;
+        position: relative;
+        top: -20px;
+}
+  
+.whatsfordinner {
+    color: #f5f5f5;
+        font-family: "CustomFont3", sans-serif; 
+        font-size: 40px; 
+        margin-left: -20px;
+        position: relative;
+        top: -50px;
+}
+
+
+  .box3pic1 {
+  width: 300px;
+  height: 350px;
+  background-color: rgb(0, 0, 0);
+  top: -20px;
+  right: -8px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  background-image: url(pics/salad.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.3s ease;
+  
+}
+
+
+
+
+
+  .box3pic2 {width: 300px;
+   height: 350px;
+   background-color: rgb(0, 0, 0);
+   top: -20px;
+   right: -8px;
+   margin-right: 15px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   position: relative;
+   background-image: url(pics/feast.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   transition: all 0.3s ease;
+}
+
+
+  .box3pic3 {width: 300px;
+   height: 350px;
+   background-color: rgb(0, 0, 0);
+   top: -20px;
+   right: -8px;
+   margin-right: 15px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   position: relative;
+   background-image: url(pics/smoothie.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   transition: all 0.3s ease;
+}
+
+
+
+  .box3pic4 {width: 300px;
+   height: 350px;
+   background-color: rgb(0, 0, 0);
+   top: -20px;
+   right: -8px;
+   margin-right: 15px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   position: relative;
+   background-image: url(pics/wrap.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   transition: all 0.3s ease }
+
+
+
+
+  
+  
+  .box3pic1:hover,
+  .box3pic2:hover,
+  .box3pic3:hover,
+  .box3pic4:hover{
+    transform: scale(1.1); 
+  }
+  
+
+
+
+
+.box4 {
+    background-color: rgb(0, 0, 0);
+    background-image: url(pics/box4bg.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+    
+
+
+
+  .Why-choose-us {color: #ba1717;
+    font-family: "CustomFont3", sans-serif; 
+    font-size: 40px; 
+    left: -160px;
+    position: relative;
+    top: 30px;}
+
+    .Extrataste {color: #f6f6f6;
+        font-family: "CustomFont2", sans-serif; 
+        font-size: 40px; 
+        left: -280px;
+        position: relative;
+        top: 5px;}
+
+        .location-text {
+            color: #f5f5f5;
+            font-family: "CustomFont1", sans-serif; 
+            font-size: 16px; 
+            left: 10px;
+            position: relative;
+            top: -120px;
+            left: 330px;}
+
+
+        p {
+            margin: 0; 
+            line-height: 1.5; 
+        }
+        
+ .footerbox {
+   background-color: rgb(18, 18, 18);
+   top: -150px;
+   position: relative;
+   height: 150px;
+  
+}
+
+.race-car-container {
+    position: relative;
+    font-size: 48px;
+    animation: moveCar 2.5s infinite linear;
+    bottom: 50px;
+}
+
+.exhaust {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    bottom: -10px;
+    left: -30px;
+    opacity: 0;
+    animation: emitExhaust 0.5s infinite alternate;
+}
+
+@keyframes moveCar {
+    0% { left: 100%; } 
+    100% { left: -300px; } 
+}
+
+@keyframes emitExhaust {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+    footer a[href="#top"] {
+        display: inline-block;
+        padding: 5px 10px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 10px;
+        font-family: "CustomFont1", sans-serif; 
+        font-size: 16px;
+      }
+
+      .topbox {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        position: relative;
+        background-position: center;
+        background-image: url(pics/topboxpic.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .image-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0); /* Set the background to transparent */
+        cursor: pointer; /* Change the cursor to a pointer when hovering */
+        z-index: 2; /* Ensure it's above the content */
+      }
+      
+      

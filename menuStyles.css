@@ -1,0 +1,388 @@
+.container {background-color: #080808;
+   
+}
+body {
+    
+  margin: 0;
+  padding: 0;
+  
+}
+
+.main-box {
+  width: 100%; 
+  max-width: 1400px;
+  margin: auto;
+  padding: 15px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+        }
+
+.box2,
+.box3,
+.box4,
+.footerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topbox {
+ 
+ height: 600px;
+ display: flex;
+ flex-direction: column;
+ margin-top: 0px;
+ position: relative;
+ background-position: center;
+ background-image: url(pics/topboxpic.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+  }
+
+  
+  
+  .order-button:hover {
+    background-color: #3f0404; 
+  }
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(147, 143, 143);
+}
+
+.alt {
+  display: none;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+h2 {
+  margin: 0; 
+  line-height: 1.5; 
+  font-family: "CustomFont3", sans-serif; 
+  font-size: 30px;
+  color: #f5f5f5;
+
+}
+
+.Featured-Weekly-Specials {
+  margin: 0; 
+  line-height: 1.5; 
+  font-family: "CustomFont3", sans-serif; 
+  font-size: 30px;
+  color: #f5f5f5;
+
+}
+
+.Specials {
+  margin: 0; 
+  line-height: 1; 
+  font-family: "CustomFont3", sans-serif; 
+  font-size: 55px;
+  color: #cb0808;
+
+}
+
+.box2 {
+  background-color: rgb(0, 0, 0);
+  height: 1600px;
+  
+  margin-top: -15px; 
+  flex-wrap: wrap;
+  
+  display: flex;
+
+  }
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("Fonts/Avenir.ttf") format("truetype");
+  }
+
+
+     @font-face {
+         font-family: "CustomFont2";
+         src: url("Fonts/FreeSansBold.ttf") format("truetype");
+         }
+
+         @font-face {
+             font-family: "CustomFont3";
+             src: url("Fonts/Kadwa-Regular.ttf") format("truetype");
+             }
+
+
+
+
+.img {
+  border-radius: 5px;
+  width: 300px;
+  position: relative;
+}
+
+.img:hover + .alt {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.soda-item {
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.soda-image {
+  padding-top: 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 25px;
+}
+
+.soda-title {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.sides-item:hover {
+  background-color: #f1f1f1;
+}
+
+.sides-item {
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.soda-item:hover {
+  background-color: #f1f1f1;
+}
+
+.sides-image {
+  padding-top: 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 25px;
+}
+
+.sides-title {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.popup-image {
+  max-width: 100%;
+  max-height: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  max-width: 500px;
+  position: relative;
+  border-radius: 25px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(243, 243, 243);
+}
+
+.menu-name {
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.menu-image {
+  padding-top: 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 25px;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(3, 300px); 
+  gap: 10px; 
+  position:relative;
+  top: -100px;
+  font-family: "CustomFont3", sans-serif;
+}
+.footerbox {
+  background-color: rgb(18, 18, 18);
+  top: -120px;
+  position: relative;
+  height: 150px;
+}
+
+
+nav {
+ display: flex;
+ justify-content: flex-end;      
+}
+
+nav a { font-family: "CustomFont", sans-serif;
+    color: rgb(192, 192, 192);
+    margin-top: 25px;
+    margin-right: 80px; 
+    margin-left:-30px;
+    text-decoration: none;
+
+}
+
+nav a:hover {color: rgb(212, 112, 117);}
+
+#soda-dropdown {
+  position: relative;
+  top: -21px; 
+  left: 110px; 
+}
+
+#sides-dropdown {
+  position: relative;
+  top: -42px; 
+  left: 55px; 
+}
+
+.Race-to-taste { margin: 0; 
+  line-height: 1; 
+  font-family: "CustomFont3", sans-serif; 
+  font-size: 32px;
+  color: #e6e4e4;
+  position: relative;
+  top: -225px;}
+
+.delicious { margin: 0; 
+  line-height: 1; 
+  font-family: "CustomFont3", sans-serif; 
+  font-size: 60px;
+  color: #e6e4e4;
+  position: relative;
+  top: -225px;}
+
+.menu {
+  margin: 0; 
+  line-height: 1; 
+  font-family: "CustomFont3", sans-serif; 
+  font-size: 105px;
+  color: #cb0808;
+  position: relative;
+  top: -225px;
+
+}
+
+.race-car-container {
+  position: relative;
+  font-size: 48px;
+  animation: moveCar 2.5s infinite linear;
+  bottom: 250px;
+}
+
+.exhaust {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  bottom: -10px;
+  left: -30px;
+  opacity: 0;
+  animation: emitExhaust 0.5s infinite alternate;
+}
+
+@keyframes moveCar {
+  0% { left: 100%; } 
+  100% { left: -300px; } 
+}
+
+@keyframes emitExhaust {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.topbox {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  position: relative;
+  background-position: center;
+  background-image: url(pics/topboxpic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); 
+  cursor: pointer; 
+  z-index: 2; 
+}
+
+footer a[href="#top"] {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-family: "CustomFont1", sans-serif; 
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none; 
+  color:rgb(201, 201, 201); 
+  font-family: "CustomFont3", sans-serif;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SGH Menu Page</title>
+    <link rel="stylesheet" type="text/css" href="menuStyles.css" />
+  </head>
+  <body>
+    <h2>Featured Weekly Specials</h2>
+    <div class="container">
+      <div class="alt"></div>
+      <img class="img" src="Pics/fishTacos.jpeg" id="special" title="" />
+      <div class="title"></div>
+      <br />
+      <button id="next">Next Special</button>
+      <button id="descriptions">Learn More</button>
+      <div id="description-list"></div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <h2>Beverages and Sides</h2>
+    <br />
+
+    <!-- Soda Container -->
+    <div class="container">
+      <button id="soda-dropdown">Soft Drinks</button>
+      <div id="soda-dropdown-content" class="dropdown-content"></div>
+    </div>
+    <div id="soda-popup" class="popup">
+      <div class="popup-content">
+        <span class="close" id="close-popup">&times;</span>
+        <div class="soda-title" id="popup-title"></div>
+        <div class="soda-description" id="popup-description"></div>
+        <img
+          class="soda-image"
+          id="popup-image"
+          style="max-width: 100%; max-height: 300px"
+        />
+      </div>
+    </div>
+
+    <!-- Sides Container -->
+    <div class="container">
+      <button id="sides-dropdown">Sides</button>
+      <div id="sides-dropdown-content" class="dropdown-content"></div>
+    </div>
+    <div id="sides-popup" class="popup">
+      <div class="popup-content">
+        <span class="close" id="close-sides-popup">&times;</span>
+        <div class="sides-title" id="sides-popup-title"></div>
+        <div class="sides-description" id="sides-popup-description"></div>
+        <img
+          class="sides-image"
+          id="sides-popup-image"
+          style="max-width: 100%; max-height: 300px"
+        />
+      </div>
+    </div>
+
+    <br /><br />
+
+    <h1>Main Menu</h1>
+    <!-- menu Container -->
+    <div class="menu-items"></div>
+    <div class="menu-container">
+      <div id="menu-popup" class="popup">
+        <div class="popup-content">
+          <span class="close" id="close-menu-popup">&times;</span>
+
+          <div class="menu-name" id="menu-name"></div>
+          <div class="menu-description" id="menu-description"></div>
+
+          <img
+            class="menu-image"
+            id="menu-image"
+            style="max-width: 100%; max-height: 300px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <script src="menuArrays.js"></script>
+    <script src="menuScript.js"></script>
+  </body>
+</html>
